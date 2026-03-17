@@ -7,21 +7,18 @@ html, body {
   margin: 0;
   padding: 0;
   background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  height: 100%;
+  overflow: hidden;
 }
 .video-container {
   width: 100%;
-  max-width: 480px; /* ini bikin kecil di HP */
-  aspect-ratio: 16/9;
-  background: black;
+  max-width: 480px;
+  margin: auto;
 }
 video {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
+  display: block;
 }
 </style>
 </head>
